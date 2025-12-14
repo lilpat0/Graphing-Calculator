@@ -1,0 +1,269 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4b9bd1c3-3981-478f-b833-b641da85f48a")
+	(paper "A3")
+	(title_block
+		(title "Graphing Calculator")
+	)
+	(lib_symbols)
+	(sheet
+		(at 67.31 140.97)
+		(size 124.46 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1cf5cfd9-b717-4af7-a385-f34091f1fdca")
+		(property "Sheetname" "Memory"
+			(at 67.31 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "graphing_SDRAM.kicad_sch"
+			(at 67.31 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Graphing calc"
+				(path "/4b9bd1c3-3981-478f-b833-b641da85f48a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 161.29)
+		(size 55.88 83.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20b5be77-3659-4e29-8942-176b75a28219")
+		(property "Sheetname" "Display"
+			(at 237.49 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GC_Display.kicad_sch"
+			(at 237.49 245.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Graphing calc"
+				(path "/4b9bd1c3-3981-478f-b833-b641da85f48a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 62.23)
+		(size 105.41 68.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28a755bc-5b11-4c8d-97c6-9ab7dc886690")
+		(property "Sheetname" "External Memory"
+			(at 74.93 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GC_SRAM.kicad_sch"
+			(at 74.93 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Graphing calc"
+				(path "/4b9bd1c3-3981-478f-b833-b641da85f48a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 191.77)
+		(size 166.37 82.55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "351909c4-a357-4761-a765-4138d018a694")
+		(property "Sheetname" "keyboard"
+			(at 48.26 191.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GC_board.kicad_sch"
+			(at 48.26 274.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Graphing calc"
+				(path "/4b9bd1c3-3981-478f-b833-b641da85f48a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 43.18)
+		(size 73.66 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42c19bd7-551f-4a7f-90b3-c932ca1c2d32")
+		(property "Sheetname" "STM32"
+			(at 317.5 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GC_MCU.kicad_sch"
+			(at 317.5 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Graphing calc"
+				(path "/4b9bd1c3-3981-478f-b833-b641da85f48a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 53.34)
+		(size 57.15 90.17)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4c02230-3099-42a2-a3bb-9bf471a65307")
+		(property "Sheetname" "Power and IC protection"
+			(at 237.49 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 237.49 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Graphing calc"
+				(path "/4b9bd1c3-3981-478f-b833-b641da85f48a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
